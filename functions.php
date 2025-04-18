@@ -1472,8 +1472,8 @@ add_action( 'wpcf7_before_send_mail', 'wpcf7_before_send_telegram_multiple' );
 
 
 function wpcf7_before_send_telegram_file() {
-	$token = '2079158973:AAFuRpkvKKiamDqjPhtKTVE32z_-4txKRiQ'; // тестовый бот
-	$chat_id = '-660609060'; // тестовый чат
+	$token = ''; // тестовый бот
+	$chat_id = ''; // тестовый чат
  
 	// Формирование сообщения
 	$txt = '';
